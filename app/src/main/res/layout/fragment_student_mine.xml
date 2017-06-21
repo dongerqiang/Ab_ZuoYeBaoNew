@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/title_bg"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <FrameLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            >
+
+            <ImageView
+                android:src="@drawable/head85"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                />
+            <ImageView
+                android:visibility="visible"
+                android:src="@drawable/default_head"
+                android:layout_gravity="center"
+                android:id="@+id/iv_minefgmS_head"
+                android:layout_width="81dp"
+                android:layout_height="81dp"
+                />
+
+        </FrameLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_minefgmS_name"
+                android:text="姓名"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/home_content_bg"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_minefgmS_grade"
+                android:text="年级"
+                android:layout_marginLeft="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/home_content_bg"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        style="@style/line_h"
+        android:layout_height="15dp"
+        android:background="@color/content_bg"/>
+
+    <LinearLayout
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:drawableLeft="@drawable/xingxing"
+            android:drawablePadding="15dp"
+            android:background="@color/white"
+            android:paddingLeft="20dp"
+            android:gravity="center_vertical"
+            android:id="@+id/tv_minefgmS_mineCount"
+            android:text="我的积分"
+            android:textColor="@color/tc3"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <View
+            style="@style/line_h"
+            android:layout_marginLeft="20dp"
+            android:background="@color/line_c"/>
+
+        <TextView
+            android:drawableLeft="@drawable/dingdan"
+            android:drawablePadding="15dp"
+            android:background="@color/white"
+            android:paddingLeft="20dp"
+            android:gravity="center_vertical"
+            android:id="@+id/tv_minefgmS_mineList"
+            android:text="我的订单"
+            android:textColor="@color/tc3"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <View
+            style="@style/line_h"
+            android:layout_marginLeft="20dp"
+            android:background="@color/line_c"/>
+
+        <TextView
+            android:drawableLeft="@drawable/xiaoxi2"
+            android:drawablePadding="15dp"
+            android:background="@color/white"
+            android:paddingLeft="20dp"
+            android:gravity="center_vertical"
+            android:id="@+id/tv_minefgmS_mineMsg"
+            android:text="我的消息"
+            android:textColor="@color/tc3"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <View
+            style="@style/line_h"
+            android:layout_marginLeft="20dp"
+            android:background="@color/line_c"/>
+
+        <TextView
+            android:drawableLeft="@drawable/hongbao"
+            android:drawablePadding="15dp"
+            android:background="@color/white"
+            android:paddingLeft="20dp"
+            android:gravity="center_vertical"
+            android:id="@+id/tv_minefgmS_mineRed"
+            android:text="我的红包"
+            android:textColor="@color/tc3"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <View
+            style="@style/line_h"
+            android:layout_marginLeft="20dp"
+            android:background="@color/line_c"/>
+
+        <TextView
+            android:drawableLeft="@drawable/setting"
+            android:drawablePadding="15dp"
+            android:background="@color/white"
+            android:paddingLeft="20dp"
+            android:gravity="center_vertical"
+            android:id="@+id/tv_minefgmS_setting"
+            android:text="设置"
+            android:textColor="@color/tc3"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <TextView
+            android:background="@color/home_content_bg"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

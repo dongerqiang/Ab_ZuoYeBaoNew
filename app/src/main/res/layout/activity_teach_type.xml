@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/content_bg"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:orientation="vertical">
+
+            <View
+                style="@style/line_h"
+                android:layout_height="11dp"
+                android:background="@color/content_bg" />
+
+
+            <LinearLayout
+                android:id="@+id/ll_howToTeachAty_grade"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
+
+
+                <TextView
+
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="年级"
+                    android:textColor="@color/tc3"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_howToTeachAty_grade"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="请选择年级"
+                    android:textColor="@color/tc9"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:src="@drawable/icon_arrow_right" />
+
+            </LinearLayout>
+
+            <View
+                style="@style/line_h"
+                android:layout_marginLeft="20dp"
+                android:background="@color/line_c" />
+
+            <LinearLayout
+                android:id="@+id/ll_howToTeachAty_subject"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
+
+
+                <TextView
+
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="科目"
+                    android:textColor="@color/tc3"
+                    android:textSize="14sp" />
+
+
+                <TextView
+                    android:id="@+id/tv_howToTeachAty_subject"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="请选择科目"
+                    android:textColor="@color/tc9"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:src="@drawable/icon_arrow_right" />
+
+            </LinearLayout>
+
+            <View
+                style="@style/line_h"
+                android:layout_marginLeft="20dp"
+                android:background="@color/line_c" />
+
+            <LinearLayout
+                android:id="@+id/ll_howToTeachAty_time"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
+
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="授课时间"
+                    android:textColor="@color/tc3"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_howToTeachAty_time"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="请选择授课时间"
+                    android:textColor="@color/tc9"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:src="@drawable/icon_arrow_right" />
+
+            </LinearLayout>
+
+            <View
+                style="@style/line_h"
+                android:layout_marginLeft="20dp"
+                android:background="@color/line_c" />
+
+            <LinearLayout
+                android:id="@+id/ll_how_class"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:visibility="visible">
+
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="授课地址"
+                    android:textColor="@color/tc3"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/et_howToTeachAty_address"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:hint="请输入地址"
+                    android:maxLength="50"
+                    android:singleLine="true"
+                    android:textColor="@color/tc6"
+                    android:textColorHint="@color/tc9"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:src="@drawable/icon_arrow_right" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/line_address"
+                style="@style/line_h"
+                android:layout_marginLeft="20dp"
+                android:background="@color/line_c" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:text="上传问题照片"
+                android:textColor="@color/tc3"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="20dp"
+                android:weightSum="3">
+
+
+                <FrameLayout
+                    android:id="@+id/fl_howToTeachAty_1"
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/iv_howToTeachAty_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingRight="5dp"
+                        android:paddingTop="10dp"
+                        android:scaleType="centerCrop" />
+
+                    <ImageView
+                        android:id="@+id/iv__howToTeachAty_delete1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:src="@drawable/delete2" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/fl_howToTeachAty_2"
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/iv_howToTeachAty_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingRight="5dp"
+                        android:paddingTop="10dp"
+                        android:scaleType="centerCrop" />
+
+                    <ImageView
+                        android:id="@+id/iv__howToTeachAty_delete2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:src="@drawable/delete2" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/fl_howToTeachAty_3"
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/iv_howToTeachAty_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingRight="5dp"
+                        android:paddingTop="10dp"
+                        android:scaleType="centerCrop" />
+
+                    <ImageView
+                        android:id="@+id/iv__howToTeachAty_delete3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:src="@drawable/delete2" />
+                </FrameLayout>
+
+
+                <FrameLayout
+                    android:id="@+id/fl_howToTeachAty_add1"
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp">
+
+                    <ImageView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/iv_addbg_shape"
+                        android:scaleType="center"
+                        android:src="@drawable/icon_add_pic" />
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="20dp"
+                android:weightSum="3">
+
+                <FrameLayout
+                    android:id="@+id/fl_howToTeachAty_4"
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/iv_howToTeachAty_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingRight="5dp"
+                        android:paddingTop="10dp"
+                        android:scaleType="centerCrop" />
+
+                    <ImageView
+                        android:id="@+id/iv__howToTeachAty_delete4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:src="@drawable/delete2" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/fl_howToTeachAty_5"
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/iv_howToTeachAty_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingRight="5dp"
+                        android:paddingTop="10dp"
+                        android:scaleType="centerCrop" />
+
+                    <ImageView
+                        android:id="@+id/iv__howToTeachAty_delete5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:src="@drawable/delete2" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/fl_howToTeachAty_6"
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/iv_howToTeachAty_6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingRight="5dp"
+                        android:paddingTop="10dp"
+                        android:scaleType="centerCrop" />
+
+                    <ImageView
+                        android:id="@+id/iv__howToTeachAty_delete6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:src="@drawable/delete2" />
+                </FrameLayout>
+
+
+                <FrameLayout
+                    android:id="@+id/fl_howToTeachAty_add2"
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:visibility="gone">
+
+                    <ImageView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/iv_addbg_shape"
+                        android:scaleType="center"
+                        android:src="@drawable/icon_add_pic" />
+
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <TextView
+        android:id="@+id/tv_howToTeachAty_ok"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#ffc468"
+        android:gravity="center"
+        android:text="提交"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+</LinearLayout>

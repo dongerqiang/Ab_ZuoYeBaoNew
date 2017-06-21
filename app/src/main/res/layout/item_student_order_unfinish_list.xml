@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingTop="11dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_marginBottom="11dp"
+                android:layout_marginRight="20dp">
+
+                <ImageView
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:src="@drawable/head65" />
+
+                <ImageView
+                    android:id="@+id/iv_lv_myListS_head"
+                    android:layout_width="63dp"
+                    android:layout_height="63dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/default_head" />
+
+            </FrameLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_lv_myListS_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="姓名"
+                    android:textColor="@color/tc3"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_lv_myListS_subject"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="科目："
+                    android:textColor="@color/tc9"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_lv_myListS_grade"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="年级："
+                    android:textColor="@color/tc9"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="2dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_lv_myListS_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="cdsdf"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/iv_lv_myListS_teachType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/dianhua_button"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_lv_myListS_comment"
+                    android:layout_width="70dp"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/bg_comment"
+                    android:text="评价"
+                    android:textColor="@color/orange"
+                    android:visibility="visible" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <View
+            style="@style/line_h"
+            android:background="@color/line_c" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="11dp"
+            android:paddingRight="20dp"
+            android:paddingTop="11dp">
+
+            <TextView
+                android:id="@+id/tv_lv_myListS_teachType"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""
+                android:textColor="@color/tc6"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tv_lv_myListS_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/tc6"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tv_lv_myListS_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text=""
+                android:textColor="@color/tc6"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        style="@style/line_h"
+        android:layout_height="11dp"
+        android:background="@color/content_bg" />
+</LinearLayout>

@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/content_bg"
+    android:orientation="vertical">
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="11dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/ll_detailInfoT_head"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="头像"
+                    android:textColor="@color/tc3"
+                    android:textSize="14sp" />
+
+
+                <FrameLayout
+                    android:layout_width="38dp"
+                    android:layout_height="38dp">
+
+                    <ImageView
+                        android:id="@+id/iv_detailInfoT_headBg"
+                        android:layout_width="38dp"
+                        android:layout_height="38dp"
+                        android:src="@drawable/head38" />
+
+                    <ImageView
+                        android:id="@+id/iv_detailInfoT_head"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/default_head" />
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+            <View
+                style="@style/line_h"
+                android:layout_marginLeft="20dp"
+                android:background="@color/line_c" />
+
+            <LinearLayout
+                android:id="@+id/ll_detailInfoT_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="姓名"
+                    android:textColor="@color/tc3"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_detailInfoT_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/tc9"
+                    android:textSize="14sp" />
+
+
+            </LinearLayout>
+
+            <View
+                style="@style/line_h"
+                android:layout_marginLeft="20dp"
+                android:background="@color/line_c" />
+
+            <LinearLayout
+                android:id="@+id/ll_detailInfoT_pNum"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="手机号"
+                    android:textColor="@color/tc3"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_detailInfoT_pNum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/tc9"
+                    android:textSize="14sp" />
+
+
+            </LinearLayout>
+
+            <View
+                style="@style/line_h"
+                android:layout_marginLeft="20dp"
+                android:background="@color/line_c" />
+
+            <LinearLayout
+                android:id="@+id/ll_detailInfoT_sex"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="性别"
+                    android:textColor="@color/tc3"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_detailInfoT_sex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/tc9"
+                    android:textSize="14sp" />
+
+
+            </LinearLayout>
+
+            <View
+                style="@style/line_h"
+                android:layout_marginLeft="20dp"
+                android:background="@color/line_c" />
+
+            <LinearLayout
+                android:id="@+id/ll_detailInfoT_tYear"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="教龄"
+                    android:textColor="@color/tc3"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_detailInfoT_tYear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/tc9"
+                    android:textSize="14sp" />
+
+
+            </LinearLayout>
+
+            <View
+                style="@style/line_h"
+                android:layout_marginLeft="20dp"
+                android:background="@color/line_c" />
+
+            <LinearLayout
+
+                android:id="@+id/ll_detailInfoT_grade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="5dp"
+                android:paddingLeft="20dp"
+
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="教学年级科目"
+                    android:textColor="@color/tc3"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:gravity="center_vertical|right"
+                    android:layout_weight="1"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/tv_detailInfoT_grade"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/tc9"
+                    android:textSize="14sp" />
+
+
+            </LinearLayout>
+
+            <View
+                style="@style/line_h"
+                android:layout_marginLeft="20dp"
+                android:background="@color/line_c" />
+
+
+            <LinearLayout
+                android:id="@+id/ll_detailInfoT_address"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
+
+                <TextView
+
+                    android:gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="地址"
+                    android:textColor="@color/tc3"
+                    android:textSize="14sp" />
+
+                <TextView
+
+                    android:layout_weight="1"
+                    android:id="@+id/tv_detailInfoT_address"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:ellipsize="start"
+                    android:gravity="center_vertical|right"
+                    android:text=""
+                    android:textColor="@color/tc9"
+                    android:textSize="14sp" />
+
+
+            </LinearLayout>
+
+            <View
+                style="@style/line_h"
+                android:layout_marginLeft="20dp"
+                android:background="@color/line_c" />
+
+            <LinearLayout
+                android:id="@+id/ll_detailInfoT_confim"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingRight="20dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="20dp"
+                    android:text="认证"
+                    android:textColor="@color/tc3"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_detailInfoT_isQC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="5dp"
+                    android:drawableRight="@drawable/renzh"
+                    android:text="资格认证"
+                    android:textColor="@color/tc9"
+                    android:textSize="14sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_detailInfoT_isPC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:drawablePadding="5dp"
+                    android:drawableRight="@drawable/renzh"
+                    android:text="平台认证"
+                    android:textColor="@color/tc9"
+                    android:textSize="14sp"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <View
+                style="@style/line_h"
+                android:layout_marginLeft="20dp"
+                android:background="@color/line_c" />
+
+            <LinearLayout
+                android:layout_marginRight="20dp"
+                android:id="@+id/ll_detailInfoT_sign"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="个性签名"
+                    android:textColor="@color/tc3"
+                    android:textSize="14sp" />
+                <TextView
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/tv_detailInfoT_sign"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:textColor="@color/tc9"
+                    android:textSize="14sp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <View
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/tv_detailInfoT_updateInfo"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#ffc468"
+        android:gravity="center"
+        android:text="申请更新资料"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+</LinearLayout>

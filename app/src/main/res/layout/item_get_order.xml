@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#000"
+    android:orientation="vertical">
+
+    <View
+        style="@style/line_h"
+        android:layout_height="11dp"
+        android:background="@color/content_bg" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingTop="11dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_marginBottom="11dp"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_marginRight="20dp">
+
+                <ImageView
+                    android:src="@drawable/head65"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    />
+                <ImageView
+                    android:src="@drawable/default_head"
+                    android:layout_gravity="center"
+                    android:id="@+id/iv_lv_homeFgmT_head"
+                    android:layout_width="63dp"
+                    android:layout_height="63dp"
+                    />
+
+            </FrameLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_lv_homeFgmT_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="姓名"
+                    android:textColor="@color/tc3"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_lv_homeFgmT_subject"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="科目："
+                    android:layout_marginTop="2dp"
+                    android:textColor="@color/tc9"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_lv_homeFgmT_grade"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="年级："
+                    android:textColor="@color/tc9"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_lv_homeFgmT_grab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/button_qiangdan"
+                android:gravity="center"
+                android:text="立即抢单"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <View
+            style="@style/line_h"
+            android:background="@color/line_c" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingRight="20dp"
+            android:paddingBottom="11dp"
+            android:paddingTop="11dp">
+
+            <TextView
+                android:id="@+id/tv_lv_homeFgmT_teachType"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/tc6"
+                android:textSize="13sp" />
+            <TextView
+                android:id="@+id/tv_lv_homeFgmT_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/tc6"
+                android:textSize="13sp" />
+            <TextView
+                android:id="@+id/tv_lv_homeFgmT_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/tc6"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+        android:background="@color/line_c"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+</LinearLayout>

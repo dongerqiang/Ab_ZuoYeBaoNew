@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_dialogWarn"
+        android:background="@drawable/tankuang_shangchuanzhaopian"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/tv_dialogWarn_warn"
+            android:text="您还未登录，请先登录"
+            android:gravity="bottom"
+            android:paddingBottom="10dp"
+            android:textColor="@color/tc6"
+            android:textSize="14sp"
+            android:paddingLeft="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+
+        <TextView
+            android:paddingTop="10dp"
+            android:text="确定"
+            android:paddingRight="25dp"
+            android:gravity="right"
+            android:textColor="@color/orange"
+            android:textSize="14sp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>

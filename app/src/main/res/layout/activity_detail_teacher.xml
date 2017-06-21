@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.ourslook.zuoyeba.activity.DetailTeacherActivity">
+    <!--<LinearLayout
+        android:id="@+id/view_pickUpTAty_leftTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/content_bg"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/tv_pickUpTAty_leftTime"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:text="180s"
+            android:textColor="@color/tc3"
+            android:textSize="13sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:text="后结束匹配"
+            android:textColor="@color/tc3"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/tv_pickUpTAty_teacherCount"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:gravity="center_vertical|right"
+            android:text="共有0位老师接单"
+            android:textColor="@color/tc3"
+            android:textSize="13sp" />
+
+    </LinearLayout>-->
+    <ListView
+        android:id="@+id/detail_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:background="@color/white"/>
+
+</LinearLayout>

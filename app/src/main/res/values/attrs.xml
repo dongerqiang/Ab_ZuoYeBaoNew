@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BottomNavigationLayout">
+        <attr name="text_color_selected" format="color|reference"/>
+        <attr name="text_color_unselected" format="color|reference"/>
+    </declare-styleable>
+
+    <!-- 地址选择器属性 -->
+    <declare-styleable name="NumberPicker">
+        <attr name="normalTextColor" format="color" />
+        <attr name="normalTextSize" format="dimension" />
+        <attr name="selecredTextColor" format="color" />
+        <attr name="selecredTextSize" format="dimension" />
+        <attr name="unitHight" format="dimension" />
+        <attr name="itemNumber" format="integer"/>
+        <attr name="lineCoulor" format="color" />
+        <attr name="maskHight" format="dimension"/>
+        <attr name="noEmpty" format="boolean"/>
+        <attr name="isEnable" format="boolean"/>
+    </declare-styleable>
+
+    <!-- 缩放头部的ListView -->
+    <declare-styleable name="ScaleListView">
+        <attr name="scale_minY" format="integer" />
+        <attr name="scale_maxY" format="integer" />
+    </declare-styleable>
+</resources>

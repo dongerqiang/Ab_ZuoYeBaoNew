@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:shen="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:textColor="@color/title_tc"
+        android:id="@+id/tv_dialogGrade_ok"
+        android:text="确定"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:background="@color/title_bg"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <LinearLayout
+        android:gravity="center"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="180dp">
+
+        <com.ourslook.zuoyeba.view.ScrollerNumberPicker
+            android:id="@+id/pick_dialogGarde_grade"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            shen:itemNumber="3"
+            shen:lineCoulor="@color/title_tc"
+            shen:maskHight="30dp"
+            shen:noEmpty="true"
+            shen:normalTextColor="@color/tc9"
+            shen:normalTextSize="13sp"
+            shen:selecredTextColor="@color/tc3"
+            shen:selecredTextSize="16sp"
+            shen:unitHight="45dp"
+            android:visibility="visible"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">作业吧</string>
+    <string name="noLogin_home">您好，您还未登录哦~</string>
+    <string name="isLogin_home">您好，一起作业吧~</string>
+
+    <!-- 环信 -->
+    <string name="mute">静音</string>
+    <string name="Hands_free">免提</string>
+    <string name="hang_up">挂断</string>
+    <string name="answer">接听</string>
+    <string name="unable_to_connect">不能连接到服务器</string>
+    <string name="Version_number_is_wrong">版本号错误</string>
+    <string name="Are_connected_to_each_other">正在连接对方...</string>
+    <string name="Is_not_yet_connected_to_the_server">尚未连接至服务器</string>
+    <string name="have_connected_with">已经和对方建立连接，等待对方接受...</string>
+    <string name="In_the_call">通话中...</string>
+    <string name="The_other_party_refused_to_accept">对方拒绝接受！...</string>
+    <string name="Connection_failure">连接建立失败！...</string>
+    <string name="The_other_party_is_not_online">对方不在线，请稍后再拨...</string>
+    <string name="The_other_is_on_the_phone_please">对方正在通话中，请稍后再拨</string>
+    <string name="The_other_is_hang_up">对方已经挂断</string>
+    <string name="The_other_party_did_not_answer_new">对方未接听</string>
+    <string name="direct_call">Direct</string>
+    <string name="relay_call">Relay</string>
+    <string name="did_not_answer">未接听</string>
+    <string name="Has_been_cancelled">已取消</string>
+    <string name="hanging_up">正在挂断..</string>
+    <string name="The_other_party_did_not_answer">对方未接听</string>
+    <string name="return_home"><u>返回首页</u></string>
+    <string name="agree"><u>《用户许可协议》</u></string>
+    <string name="cancel_order_case">注意：已确定授课老师后，老师取消订单，后台管理员查看原因后给学生发送60元的红包。双方均可取消订单，学生取消订单需填写取消订单原因。其中上门授课，学生预约授课方式为上门授课，如果老师端点击我已出发，学生端点击取消订单，扣取半个小时的服务费用，老师端未点击我已出发，学生端可以点击取消订单，不扣取任何费用。</string>
+    <string name="isHaveAccount">已有账号</string>
+
+    <string name="dialog_registe_title">温馨提示</string>
+    <string name="dialog_registe_text">注册成功！ 恭喜获得288元课程体验券！</string>
+    <string name="title_activity_quan">QuanActivity</string>
+    <string name="quan_detail_message">恭喜您已获得一张288元的课时体验券，请耐心等待客服与您联系！</string>
+    <string name="not_connect_to_server">连接环信服务器失败</string>
+    <string name="title_activity_detail_teacher">DetailTeacherActivity</string>
+</resources>

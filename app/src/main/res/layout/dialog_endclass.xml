@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:background="@drawable/tankuang_fuwujieshu"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="授课结束"
+            android:gravity="center"
+            android:textColor="@color/tc3"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            />
+
+        <TextView
+            android:background="@color/line_c"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:text="授课时长:"
+                android:gravity="right"
+                android:textColor="@color/tc6"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/tv_dialogEnd_time"
+                android:text="0分钟"
+
+                android:paddingLeft="15dp"
+                android:gravity="left"
+                android:textColor="@color/tc6"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:singleLine="true"
+                android:text="费        用:"
+                android:gravity="right"
+                android:textColor="@color/tc6"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/tv_dialogEnd_price"
+                android:text="￥0"
+                android:paddingLeft="15dp"
+                android:gravity="left"
+                android:textColor="@color/tc6"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:singleLine="true"
+                android:text="红        包:"
+                android:gravity="right"
+                android:textColor="@color/tc6"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/tv_dialogEnd_red"
+                android:text="￥0"
+                android:paddingLeft="15dp"
+                android:gravity="left"
+                android:textColor="@color/tc6"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:singleLine="true"
+                android:text="实际费用:"
+                android:gravity="right"
+                android:textColor="@color/tc6"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/tv_dialogEnd_realPrice"
+                android:text="￥0"
+                android:paddingLeft="15dp"
+                android:gravity="left"
+                android:textColor="@color/tc6"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+
+        <TextView
+            android:text="如无异议，费用将于30分钟后自动扣取"
+            android:gravity="center"
+            android:textColor="@color/tc9"
+            android:textSize="13sp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:singleLine="true"
+                android:text="客服电话:"
+                android:gravity="right"
+                android:textColor="@color/tc9"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/tv_dialogEnd_stel"
+                android:text="null"
+                android:paddingLeft="10dp"
+                android:gravity="left"
+                android:textColor="@color/tc9"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:background="@color/line_c"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp" />
+
+        <TextView
+            android:id="@+id/tv_dialogEnd_ok"
+            android:text="我知道了"
+            android:gravity="center"
+            android:textColor="@color/orange"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

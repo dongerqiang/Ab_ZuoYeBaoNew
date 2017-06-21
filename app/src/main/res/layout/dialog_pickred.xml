@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="@drawable/icon_choose_red"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/view_dialogPickRed_ok"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:paddingTop="30dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:drawablePadding="5dp"
+                    android:drawableRight="@drawable/icon_jiantou"
+                    android:drawableLeft="@drawable/icon_choose_redbox"
+                    android:gravity="center"
+                    android:text="选择红包"
+                    android:textSize="14sp"
+                    android:textColor="@color/mine_tc_s"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingTop="10dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:gravity="center"
+                    android:text="最低消费"
+                    android:textSize="13sp"
+                    android:textColor="@color/tc6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/tv_dialogPickRed_money"
+                    android:gravity="center"
+                    android:text=""
+                    android:textSize="13sp"
+                    android:textColor="@color/tc6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:gravity="center"
+                    android:text="元方可使用"
+                    android:textSize="13sp"
+                    android:textColor="@color/tc6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:background="@color/line_c"
+            android:layout_width="match_parent"
+            android:layout_height="1px" />
+
+        <TextView
+            android:id="@+id/tv_dialogPickRed_no"
+            android:text="不使用红包"
+            android:textSize="14sp"
+            android:textColor="@color/orange"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

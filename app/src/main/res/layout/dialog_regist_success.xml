@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_dialogRegist"
+        android:background="@drawable/tankuang_shangchuanzhaopian"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:text="@string/dialog_registe_title"
+            android:gravity="bottom|center_horizontal"
+            android:paddingTop="20dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/tc3"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/dialog_register_message"
+            android:text="@string/dialog_registe_text"
+            android:gravity="bottom|center_horizontal"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/tc6"
+            android:textSize="14sp"
+            android:paddingLeft="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/line_c" />
+
+        <TextView
+            android:id="@+id/dialog_registe_confirm"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="确定"
+            android:gravity="center_horizontal"
+            android:textColor="@color/orange"
+            android:textSize="14sp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>

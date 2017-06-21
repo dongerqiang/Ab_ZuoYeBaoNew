@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="bottom"
+    android:id="@+id/ll_chooseGradle_back"
+    android:background="@color/transparency_125"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <Button
+            android:id="@+id/btn_sure_choose_gradle_dialog"
+            android:textSize="@dimen/text_size_medium"
+            android:textColor="@color/white"
+            android:background="@drawable/button"
+            android:text="确定"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+        <NumberPicker
+            android:id="@+id/pic_choose_gradle_dialog"
+            android:background="@color/white"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+    </LinearLayout>
+
+</LinearLayout>

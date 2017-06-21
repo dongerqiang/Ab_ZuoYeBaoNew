@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/content_bg"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_marginTop="11dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/view_myMsgAty_haveMsg"
+            android:visibility="invisible"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/view_myMsgAty_newMsg"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:drawableLeft="@drawable/xinxiaoxi"
+                    android:drawablePadding="15dp"
+                    android:paddingLeft="20dp"
+                    android:gravity="center_vertical"
+                    android:background="@color/white"
+                    android:text="您有新消息啦！"
+                    android:textSize="14sp"
+                    android:textColor="#ff9a41"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp" />
+
+                <View
+                    style="@style/line_h"
+                    android:background="@color/line_c"/>
+            </LinearLayout>
+
+
+            <in.srain.cube.views.ptr.PtrClassicFrameLayout
+                android:id="@+id/ptr_message_order"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ListView
+                    android:paddingLeft="20dp"
+                    android:background="@color/white"
+                    android:id="@+id/lv_myMsgAty"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </in.srain.cube.views.ptr.PtrClassicFrameLayout>
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:visibility="invisible"
+            android:id="@+id/view_myMsgAty_noMsg"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <TextView
+                android:text="您目前还没有消息哦~"
+                android:textColor="@color/tc9"
+                android:textSize="15sp"
+                android:drawableTop="@drawable/wuxiaoxi"
+                android:drawablePadding="16dp"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

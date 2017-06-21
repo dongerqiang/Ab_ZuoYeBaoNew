@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <in.srain.cube.views.ptr.PtrClassicFrameLayout
+            android:visibility="visible"
+            android:id="@+id/ptr_student_finish_order"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <ListView
+            android:id="@+id/lv_student_order_left_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        </in.srain.cube.views.ptr.PtrClassicFrameLayout>
+        <RelativeLayout
+            android:visibility="invisible"
+            android:id="@+id/view_myListS_noList"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <View
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                style="@style/line_h"
+                android:layout_height="11dp"
+                android:background="@color/content_bg" />
+
+            <TextView
+                android:text="您目前还没有订单哦，快去申请服务吧~"
+                android:textColor="@color/tc9"
+                android:textSize="15sp"
+                android:drawableTop="@drawable/wudingdan2"
+                android:drawablePadding="16dp"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+    </FrameLayout>
+</LinearLayout>
